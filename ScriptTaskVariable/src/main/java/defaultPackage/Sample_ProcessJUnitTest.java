@@ -26,7 +26,7 @@ public class Sample_ProcessJUnitTest extends JbpmJUnitTestCase {
         
         ProcessInstance processInstance = ksession.startProcess("com.sample.bpmn",params);
         // do your checks here
-        // for example, assertProcessInstanceCompleted(processInstance.getId(), ksession);
+        // for example, assertProcessInstanceCompleted(processInstance.getId(), ksession);  
     }
 
 }
